@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "target": "ESNext",
+    "module": "ESNext"
+  },
+  "include": ["src"]
+}

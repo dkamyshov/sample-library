@@ -1,0 +1,17 @@
+{
+  "name": "@dkamyshov/sample-library",
+  "version": "0.0.1",
+  "module": "lib/index.js",
+  "author": "Danil Kamyshov",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkamyshov/sample-library.git"
+  }
+}
