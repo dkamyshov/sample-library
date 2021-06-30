@@ -1,18 +1,22 @@
 {
-  "name": "@dkamyshov/sample-library",
-  "version": "0.0.2",
-  "module": "lib/index.js",
-  "types": "lib/index.d.ts",
   "author": "Danil Kamyshov",
-  "license": "MIT",
-  "scripts": {
-    "build": "tsc"
-  },
   "devDependencies": {
     "typescript": "^4.3.4"
   },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "license": "MIT",
+  "module": "lib/index.js",
+  "name": "@dkamyshov/sample-library",
   "repository": {
     "type": "git",
     "url": "https://github.com/dkamyshov/sample-library.git"
-  }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "lib/index.d.ts",
+  "version": "0.0.3"
 }
